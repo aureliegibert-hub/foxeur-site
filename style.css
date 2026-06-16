@@ -1,0 +1,60 @@
+body{
+  margin:0;
+  background:#111;
+  color:white;
+  font-family:Arial,sans-serif;
+  overflow:hidden;
+  text-align:center;
+}
+
+#container{
+  margin-top:100px;
+}
+
+h1{
+  font-size:3rem;
+}
+
+#money{
+  font-size:4rem;
+  color:#00ff88;
+  margin:30px;
+  font-weight:bold;
+}
+
+button{
+  padding:18px 35px;
+  font-size:1.2rem;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  background:gold;
+}
+
+button:hover{
+  transform:scale(1.05);
+}
+
+.hidden{
+  display:none;
+}
+
+#prank{
+  position:fixed;
+  inset:0;
+  background:#8b0000;
+  animation:flash .25s infinite;
+  padding-top:150px;
+}
+
+@keyframes flash{
+  0%{background:#8b0000;}
+  50%{background:#000;}
+  100%{background:#8b0000;}
+}
+
+.euro{
+  position:fixed;
+  font-size:40px;
+  pointer-events:none;
+}
